@@ -1,0 +1,330 @@
+html, body{
+	font-family: "Raleway"
+	font-size: 20px;
+}
+.verticalSpacer
+{
+	height: 40px;
+}
+.navbar
+{
+	background: #222;
+	width: 1350px;
+	margin: 0 ;
+	padding-left: 300px;
+	border:none;
+}
+
+.nav-link
+{
+	line-height: 20px;
+	color: #999;
+	
+}
+.navbar ul li a:hover{
+	transition:  all 0.1s ease-in;
+	background: #222;
+	color: white;
+}	
+.navbar ul li a:focus
+{
+	color: #fff;
+    background-color: #080808;
+}
+.firstCover
+{
+    background: url(../img/header_bg.jpg) no-repeat;
+    text-align: center;
+    height: 980px;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+    color: #ffffff;
+    letter-spacing: 3px;
+	text-shadow: 1px 1px 1px #000;
+	padding-top: 200px; 
+}
+.logo{
+	font-size: 8em;
+}
+.information
+{
+	width:100%; 
+	background-color:#F5F5F5;
+	background-size: 100%;
+	text-align: center;
+    background-size: cover;
+    padding: 10px;
+    border-bottom: 0.5px solid #CDCDCD;
+}
+ .information p{
+ 	color: #333333;
+ 	margin: 25px;
+
+ }
+.bootstrap, .ready, .crafted{
+	margin-top: 30px;
+	font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+}
+
+
+.ourAgency h1{
+	text-align: center;
+	border-bottom: 2px solid #CDCDCD;
+	font-weight: 300;
+}
+
+.ourAgency div:first-child{
+	margin: 15px 0 15px 150px;
+}
+.ourAgency div:last-child{
+	margin: 15px;
+}
+.divider1{
+	background-image: url("../img/bg/divider1.jpg");
+	background-size: cover;
+	height: 450px;
+	color: white;
+	text-align: center;
+}
+.divider1 h1 {
+	padding: 150px 250px 0 250px;
+    font-size: 40px;}
+
+.divider1 p 
+{	
+	padding: 0 250px;
+}
+
+.oneBrand{
+	margin: 35px 200px;
+	padding: 10px;
+}
+.oneBrand h1 {
+	text-align: center;
+	border-bottom: 2px solid #CDCDCD;
+}
+.oneBrand p{
+	text-align: justify;
+	color:#333333;
+	margin: 15px 20px;
+	font-size: 18px;
+}
+.iphone h1{
+	margin-top:15px;
+	text-align: center;
+	border-bottom: 2px solid #CDCDCD; 
+}
+.iphone img{
+	margin: 50px 0 50px 250px;
+}
+.interaction{
+	background-image: url("../img/bg/divider2.jpg");
+	background-size: cover;
+	width:100%;
+	height: 400px;
+	margin:50px 0;
+}
+.interaction h1 {
+	color: white;
+	text-align: center;
+	margin: 170px auto;
+	border-bottom: 2px solid white; 
+}
+.interaction p{
+	color: white;
+	text-align: center;
+	margin: -150px auto;
+	font-size: 20px;
+}
+.team{
+	margin: 15px;
+}
+.team h1{
+	text-align: center;
+	border-bottom: 2px solid #CDCDCD; 
+	margin:90px 300px;
+}
+.team img{
+	margin-left: 135px;
+}
+.team div i{
+	color: #3498DB;
+	margin: 15px -60px 15px 120px;
+}
+.team div p{
+	color: #333333;
+	text-align: center;
+}
+.storyTeller{
+	text-align: center;
+	font-size: 36px;
+	border-bottom: 1px solid #CDCDCD;
+	font-weight: 300px;
+	letter-spacing: 1px;
+}
+.macbook{
+	margin: 50px 0 20px 0;
+	background-color: #F5F5F5;
+}
+.macbook img{
+margin:50px 0 0 50px;
+}
+.macbook div h2{
+	text-align: center;
+	margin-top: 100px;
+}
+.macbook div p{
+	color: #333333;
+	text-align:center;
+	width:50%;
+	margin-left:200px;
+}
+.contactUs{
+	background-color: #5CB85C;
+	color: white;
+	border-radius: 10%;
+	margin-left:355px;
+}
+.solveProblems{
+	background-image: url("../img/bg/divider3.jpg");
+	background-size: cover;
+	width:100%;
+	height: 300px;
+	margin-bottom:50px; 
+}
+.solveProblems h1 {
+	color: white;
+	text-align: center;
+	margin: 150px 300px 0 300px;
+	border-bottom: 2px solid #CDCDCD;
+	padding:10px;
+}
+.solveProblems p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px; 
+}
+.stuff{
+	margin: 15px;
+}
+.stuff h1{
+	text-align: center;
+	border-bottom: 2px solid #CDCDCD;
+	padding-bottom:20px;
+	margin: 0 300px 20px 300px; 
+}
+.stuff img{
+	width: 300px;
+}
+.stuff img:first-child{
+	margin-left: 150px;
+}
+.stuffTwo{
+	margin: 0 15px 15px 15px;
+}
+.stuffTwo img{
+	width: 300px;
+}
+.stuffTwo img:first-child{
+	margin-left: 150px;
+}
+.emotionalConnection{
+	background-image: url("../img/bg/divider4.jpg");
+	background-size: cover;
+	width:100%;
+	height: 300px;
+	margin-bottom:50px; 
+}
+.emotionalConnection h1 {
+	color: white;
+	text-align: center;
+	margin: 150px 300px 0 300px;
+	border-bottom: 2px solid #CDCDCD;
+	padding: 10px;
+}
+.emotionalConnection p{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+.blog-bg
+{
+    background: #2b2b2b;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.centered
+{
+	text-align: center;
+}
+.centered h4, h5
+{
+	color: #dadada;
+    padding-top: 0px;
+}
+.centered p
+{
+	margin-left: 50px
+}
+.blog-content
+{
+	padding-top: 10px;
+    background: #f2f2f2;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.blog-content p
+{
+	font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+.divider6
+{
+	background-image: url("../img/bg/divider6.jpg");
+	background-size: 100%;
+    background-size: cover;
+	text-align:center;
+}
+.dividerSixh 
+{
+	margin: 100px auto;
+	padding-top: 70px;
+    color: white;
+    font-size: 40px;
+}
+.dividerSix
+{
+	color: white;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #2B2B2B;
+	color: white;
+	padding-top: 50px;
+	font-size: 18px;
+
+}
+.footer p{
+	margin: auto 680px;
+}
+.footer p span{
+	color: #3498DB;
+	
+}
+
